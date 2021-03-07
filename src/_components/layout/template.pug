@@ -1,0 +1,18 @@
+doctype html 
+html 
+  //- - var baseUrl = 'http://localhost:3000'
+  - var baseUrl = 'https://deeamon128.github.io/w3school-replica'
+  block cool-config
+  head  
+    title=myTitle
+    meta(name="description", content=myDescription)
+    link(rel="stylesheet", href=`${baseUrl}/style.css`)
+  body 
+    include  ../header/header
+
+    article
+      block awesome-stuff
+    
+    include  ../nav/nav
+
+    include ../footer/footer

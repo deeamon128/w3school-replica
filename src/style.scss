@@ -21,6 +21,7 @@ body {
   grid-template-columns: 220px 1fr;
   grid-template-rows: 44px 1fr 44px;
   font-family: Arial, Helvetica, Sans-serif;
+  
 }
 
 header {
@@ -86,6 +87,10 @@ nav {
     &:hover {
       background-color: var(--color-scorpion);
       color: var(--color-black)}
+      &.current {
+        background-color: var(--color-fruit-salad);
+        color: var(--color-white);
+      }
     }
   }
 
@@ -99,9 +104,9 @@ article {
   padding: 15px;
 
   p {
-    margin: 15px 0;
+    margin: 0px 0;
     font-size: 15px;
-    line-height: 36px;
+    line-height: 25px;
   }
 }
 
